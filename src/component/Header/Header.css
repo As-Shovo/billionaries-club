@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgba(193, 127, 255, 0.836);
+}
+
+
+.header-section{
+    text-align: center;
+    background-color: #001a3f;
+    padding: 10px;
+    color: #d5fcff;
+}
+
+.billion{
+    font-size: 35px;
+    color: #b4faff;
+}

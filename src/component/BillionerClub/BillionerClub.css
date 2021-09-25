@@ -1,0 +1,14 @@
+.club-membar{
+    display: flex;
+    align-items: center;
+    padding: 10px 5px;
+    margin: 5px;
+}
+
+.club-membar img{
+    width: 100px;
+}
+
+.membar-info{
+    margin-left: 10px;
+}
