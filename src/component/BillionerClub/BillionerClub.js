@@ -11,7 +11,7 @@ const BillionerClub = (props) => {
             <div><img src={imgUrl} alt="" /></div>
             <div className='membar-info'>
                 <h5>Name: {name}</h5>
-                <h5>Net Worth: ${netWorth}</h5>
+                <h6>Net Worth: ${netWorth}</h6>
             </div>
         </div>
     );

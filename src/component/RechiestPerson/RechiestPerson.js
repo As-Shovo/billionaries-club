@@ -15,7 +15,11 @@ const RechiestPerson = (props) => {
                         <h6> <b> Net Worth: $</b>{netWorth}</h6>
                         <h6> <b>Founder:</b> {founderOf}</h6>
                         <p> <b>Other Asset: </b><small>{OtherAsset.slice(0, 150)}</small></p>
-                        <button onClick={()=>addToBillionerClub(props.rechiestPerson)} className="btn btn-color"><i className="fas fa-coins"></i> Add To Club</button> 
+                        <div className="social-btn-group">
+                        <button onClick={()=>addToBillionerClub(props.rechiestPerson)} className="btn btn-color"><i class="fab fa-fort-awesome-alt"></i> Add To Club</button>
+                        <span className='social-icon'><i class="fab fa-facebook"></i></span>
+                        <span className='social-icon'><i class="fab fa-twitter"></i></span>
+                        </div>
                     </div>
                 </div>
             

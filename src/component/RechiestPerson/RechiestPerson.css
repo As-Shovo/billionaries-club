@@ -17,4 +17,18 @@
 
 .btn-color{
     background-color: aliceblue;
+    font-size: 18px;
+}
+.btn-color i{
+    font-size: 22px;
+}
+
+
+.social-btn-group{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.social-icon{
+    font-size: 35px;
 }
